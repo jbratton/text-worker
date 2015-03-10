@@ -3,5 +3,5 @@ class Organization < ActiveRecord::Base
   has_many :recipients
   has_many :recipient_lists
   has_one :plan
-  has_one :owner, class_name: 'User'
+  belongs_to :owner, class_name: 'User'
 end
