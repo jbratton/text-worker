@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  sms_gateway_host: MyString
+
+two:
+  name: MyString
+  sms_gateway_host: MyString
