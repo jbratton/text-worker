@@ -1,0 +1,2 @@
+class GlobalList < RecipientList
+end
